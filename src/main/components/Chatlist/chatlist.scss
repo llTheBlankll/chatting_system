@@ -1,0 +1,40 @@
+.chatlist {
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+}
+
+.chatlist {
+    
+    .user {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px;
+    }
+    
+    .user {
+        .user-avatar {
+            display: flex;
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+        }
+
+        .user-details {
+            padding: 8px;
+            width: 100%;
+
+            .user-name {
+                font-size: 16px;
+            }
+          
+            .user-last-chat {
+                margin-top: 5px;
+                font-size: 14px;
+                color: grey;
+            }
+        }
+    }
+    
+}
