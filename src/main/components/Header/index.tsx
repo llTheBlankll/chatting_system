@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.scss";
+import "./header.scss";
 
 type HeaderProps = {
     title: string
